@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav.menu {
+    background-color: #444;
+    position: fixed;
+    top: 0px;
+    left: -100px;
+    display: flex;
+    transition: all 0.5s ease;
+}
+
+nav.menu a {
+    display: block;
+    text-align: center;
+    padding: 25px 13px;
+    transition: all 0.5s ease;
+}
+
+nav.menu a:hover {
+    background-color: #400;
+}
+
+nav.menu a img {
+    display: inline-block;
+    position: relative;
+    width: 70px;
+    height: 70px;
+
+}
+
+.ativo {
+    background-color: #a00;
+}
+.barra{
+    background-color:#fff;
+    width: 50px;
+    height: 5px;
+    margin: 7.5px;
+}
+.btnMenu{
+    cursor: pointer;
+}
+.menuAberto{
+    left: 0px;
+}
